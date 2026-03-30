@@ -1,173 +1,166 @@
-# Excel Business Analytics Reports – Atliq Hardwares
+<!-- HEADER -->
 
-This project contains a set of **business performance reports built using Microsoft Excel** to analyze sales performance, profitability, and market performance for **Atliq Hardwares**.
+<h1 align="center">📊 Excel Business Analytics Reports</h1>
+<h3 align="center">Atliq Hardwares | Data-Driven Insights with Excel</h3>
 
-The reports provide insights into **customer performance, market targets, and profit & loss trends** using pivot tables, financial analysis, and structured reporting.
-
----
-
-# Project Overview
-
-The objective of this project is to analyze business performance using **Excel-based reporting and financial analytics**.
-
-Key goals:
-
-* Analyze **sales performance across customers**
-* Compare **market performance against sales targets**
-* Evaluate **profitability across fiscal years, markets, and months**
-* Build **structured financial reports for decision-making**
+<p align="center">
+  <img src="https://img.shields.io/badge/Tool-Excel-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Domain-Business%20Analytics-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Focus-Financial%20Reporting-orange?style=for-the-badge"/>
+</p>
 
 ---
 
-# Reports Included
+<!-- INTRO -->
 
-## 1. Customer Performance Report
+<div align="center">
 
-This report analyzes **customer-level net sales performance** across multiple years. 
+💡 Turning raw business data into **strategic insights** using Excel dashboards,
+financial modeling, and performance analytics.
 
-Key insights include:
+</div>
+
+---
+
+## 🎯 Project Objective
+
+<div style="background-color:#f6f8fa; padding:15px; border-radius:10px;">
+
+✔ Analyze **customer sales performance**
+✔ Compare **market performance vs targets**
+✔ Evaluate **profitability trends**
+✔ Build **structured financial reports**
+
+</div>
+
+---
+
+## 📁 Reports Overview
+
+---
+
+### 🧑‍💼 Customer Performance Report
+
+<div style="display:flex; gap:20px;">
+
+<div>
+
+📊 **What it shows:**
 
 * Net sales by customer
-* Year-over-year sales growth
-* High-performing customers
-* Revenue contribution by customer
+* Growth trends (YoY)
+* Revenue contribution
 
-Example metrics:
+🏢 **Key Players:**
+Amazon • Flipkart • BestBuy • Costco
 
-* Net sales in **2019, 2020, and 2021**
-* **21 vs 20 growth percentage**
-* Total sales contribution by each customer
+</div>
 
-Example customers analyzed:
+<div>
 
-* Amazon
-* Flipkart
-* Reliance Digital
-* BestBuy
-* Costco
+🔥 **Insight Highlight:**
+Top customers drive majority revenue, helping identify
+**high-impact sales channels**
 
-This report helps identify **top-performing sales channels and customers**.
+</div>
+
+</div>
 
 ---
 
-# 2. Market Performance vs Target Report
+### 🌍 Market Performance vs Target
 
-This report compares **actual sales performance with market targets** across countries. 
+<div style="background: linear-gradient(90deg, #e3f2fd, #ffffff); padding:15px; border-radius:10px;">
 
-Key insights include:
+📊 Compare **Actual vs Target Sales** across countries
 
-* Sales by country
-* Target vs actual performance
-* Percentage gap from targets
+📍 India:
+➡️ 161.3M Sales
+➡️ Missed target by 9.6M
 
-Example metrics:
+🎯 Helps identify **underperforming markets**
 
-* Actual sales
-* Target difference
-* Performance percentage
-
-Example markets analyzed:
-
-* India
-* USA
-* Canada
-* China
-* Germany
-* UK
-
-Example insight:
-
-India recorded **161.3M in sales but missed the target by 9.6M**. 
-
-This report helps management identify **markets needing strategic improvement**.
+</div>
 
 ---
 
-# 3. P&L Statement by Fiscal Year
+### 💰 P&L Statement by Fiscal Year
 
-This report provides a **financial overview of company profitability across fiscal years**. 
+<table>
+<tr>
+<th>Metric</th>
+<th>Insight</th>
+</tr>
+<tr>
+<td>Net Sales</td>
+<td>87.5M → 598.9M (Massive Growth 🚀)</td>
+</tr>
+<tr>
+<td>Gross Margin</td>
+<td>218.2M in 2021</td>
+</tr>
+</table>
 
-Metrics analyzed:
-
-* Net Sales
-* Cost of Goods Sold (COGS)
-* Gross Margin
-* Gross Margin %
-
-Example insights:
-
-* Net Sales increased from **87.5M (2019) to 598.9M (2021)**. 
-* Gross Margin reached **218.2M in 2021**. 
-
-This report highlights **overall financial growth and profitability trends**.
-
----
-
-# 4. P&L Statement by Markets
-
-This report analyzes **profitability across global markets**. 
-
-Metrics included:
-
-* Net Sales
-* Cost of Goods Sold
-* Gross Margin
-* Gross Margin %
-
-Example insights:
-
-* USA generated **87.78M net sales** with **37% margin**. 
-* India generated **161.26M net sales**. 
-
-This report helps evaluate **market-level profitability performance**.
+📈 Shows **overall financial health and growth trajectory**
 
 ---
 
-# 5. P&L Statement by Months
+### 🌐 P&L Statement by Markets
 
-This report analyzes **monthly financial trends across fiscal years**. 
+<div style="background-color:#f0fff4; padding:15px; border-radius:10px;">
 
-Metrics analyzed:
+🌎 Market-wise profitability insights:
 
-* Net Sales
-* COGS
-* Gross Margin
-* Gross Margin %
+* 🇺🇸 USA → 87.78M sales | 37% margin
+* 🇮🇳 India → 161.26M sales
 
-Insights include:
+📊 Helps evaluate **regional performance & expansion strategy**
 
-* Monthly revenue trends
-* Seasonal sales patterns
-* Monthly profitability fluctuations
-
-For example, **2021 monthly sales consistently exceeded previous years**, indicating strong growth. 
+</div>
 
 ---
 
-# Tools Used
+### 📅 P&L Statement by Months
 
-* Microsoft Excel
-* Pivot Tables
-* Financial Analysis
-* Data Aggregation
-* Business Performance Reporting
+<div style="background-color:#fff7e6; padding:15px; border-radius:10px;">
 
----
+📊 Monthly trends across years
 
-# Key Skills Demonstrated
+📈 2021 shows consistent growth over previous years
 
-* Data analysis in Excel
-* Financial reporting
-* Business performance analytics
-* Pivot table reporting
-* KPI analysis
-* Market performance evaluation
+🔍 Useful for:
+
+* Seasonality analysis
+* Forecasting
+* Demand planning
+
+</div>
 
 ---
 
-# Project Structure
+## 🛠 Tools & Techniques
 
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/Excel-Pivot%20Tables-success"/>
+  <img src="https://img.shields.io/badge/Analysis-Financial-blue"/>
+  <img src="https://img.shields.io/badge/KPI-Tracking-orange"/>
+</p>
+
+---
+
+## 🧠 Skills Demonstrated
+
+✨ Data Analysis
+✨ Financial Reporting
+✨ Business Intelligence
+✨ KPI Monitoring
+✨ Market Evaluation
+
+---
+
+## 📂 Project Structure
+
+```bash
 Excel-Business-Reports/
 │
 ├── Customer Performance Report.xlsx
@@ -181,29 +174,56 @@ Excel-Business-Reports/
 
 ---
 
-# Business Value
+## 💡 Business Impact
 
-These reports help organizations:
+<div align="center" style="background-color:#f6f8fa; padding:15px; border-radius:10px;">
 
-* Track **sales performance**
-* Monitor **financial profitability**
-* Evaluate **market growth**
-* Support **data-driven strategic decisions**
+📈 Track Sales Performance
+💰 Monitor Profitability
+🌍 Evaluate Market Growth
+🎯 Enable Data-Driven Decisions
+
+</div>
 
 ---
 
-# Author
+## 👨‍💻 Author
 
-**Lakshya Verma**
+<p align="center">
+<b>Lakshya Verma</b><br>
+Computer Science (AI) Student<br><br>
 
-Computer Science (AI) Student
-Data Analytics & Data Governance Enthusiast
+💼 Data Analytics | Data Governance | BI Enthusiast
 
-Skills:
+</p>
 
-* Excel
-* SQL
-* Power BI
-* Python
-* Data Analysis
+<p align="center">
+  <img src="https://img.shields.io/badge/Excel-Expert-green"/>
+  <img src="https://img.shields.io/badge/SQL-Intermediate-blue"/>
+  <img src="https://img.shields.io/badge/PowerBI-Advanced-yellow"/>
+  <img src="https://img.shields.io/badge/Python-Data%20Analysis-orange"/>
+</p>
 
+---
+
+<div align="center">
+---
+
+<div align="center">
+
+⭐ <b>If you like this project, consider giving it a star!</b> ⭐
+
+<br>
+
+🧟‍♂️ Warning: This project may revive your dead Excel skills
+🧟‍♀️ Side effects include: uncontrollable pivot tables & KPI obsession
+🧟 Data never sleeps… it just comes back smarter
+
+<br>
+
+<b>Stay analytical. Stay curious. Stay alive.</b> 🧟
+
+</div>
+
+
+</div>
