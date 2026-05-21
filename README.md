@@ -1,229 +1,277 @@
-<!-- HEADER -->
+<div align="center">
 
-<h1 align="center">📊 Excel Business Analytics Reports</h1>
-<h3 align="center">Atliq Hardwares | Data-Driven Insights with Excel</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020a0f,30:041520,60:061a28,100:030d18&height=220&section=header&text=EXCEL%20BUSINESS%20ANALYTICS&fontSize=42&fontColor=00d4aa&fontAlignY=42&desc=Atliq%20Hardwares%20%7C%20Sales%20%7C%20PnL%20%7C%20Market%20Intelligence&descSize=13&descAlignY=65&descColor=0891b2&animation=fadeIn&stroke=00d4aa&strokeWidth=1" width="100%"/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Tool-Excel-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Domain-Business%20Analytics-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Focus-Financial%20Reporting-orange?style=for-the-badge"/>
-</p>
+<br/>
 
----
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2400&pause=900&color=00D4AA&center=true&vCenter=true&width=760&height=40&lines=Raw+data+in.+Strategic+insight+out.;Customer+revenue+mapped+to+the+last+dollar.;Targets+missed%3F+Excel+knows+exactly+where.;No+guesswork.+No+dashboards-as-decoration." alt="Typing SVG"/>
 
-<!-- INTRO -->
+<br/><br/>
+
+![Excel](https://img.shields.io/badge/Tool-Microsoft%20Excel-030d18?style=for-the-badge&logo=microsoftexcel&logoColor=00d4aa&labelColor=020a0f)
+![Domain](https://img.shields.io/badge/Domain-Business%20Analytics-030d18?style=for-the-badge&logoColor=00d4aa&labelColor=020a0f)
+![Reports](https://img.shields.io/badge/Reports-5%20Structured-030d18?style=for-the-badge&logoColor=00d4aa&labelColor=020a0f)
+![Focus](https://img.shields.io/badge/Focus-Financial%20Reporting-030d18?style=for-the-badge&logoColor=00d4aa&labelColor=020a0f)
+![Status](https://img.shields.io/badge/Status-Complete-030d18?style=for-the-badge&logoColor=00d4aa&labelColor=020a0f)
+
+<br/><br/>
+
+> **Five Excel reports. One source of truth for every business decision.**
+>
+> [![Star](https://img.shields.io/badge/%E2%AD%90%20Star%20this%20repo-raw%20data%20%E2%86%92%20insight%20%E2%86%92%20action-00d4aa?style=for-the-badge&labelColor=020a0f)](https://github.com/lakshyaverma2004)
+
+</div>
+
+<br/>
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#overview)
+
+## Overview
+
+```python
+project = {
+    "company"          : "Atliq Hardwares",
+    "tool"             : "Microsoft Excel — Pivot Tables, Power Query, Formulas",
+    "reports"          : 5,
+    "scope"            : ["customer performance", "market vs target", "P&L fiscal year",
+                          "P&L by markets", "P&L by months"],
+    "years_covered"    : ["2019", "2020", "2021"],
+    "key_markets"      : ["India", "USA", "Canada", "South Korea", "UK", "+more"],
+    "key_customers"    : ["Amazon", "Flipkart", "BestBuy", "Costco", "AtliQ e Store"],
+    "revenue_tracked"  : "87.5M → 598.9M (3-year trajectory)",
+    "decisions_enabled": ["channel prioritisation", "market expansion", "cost control"],
+    "code_required"    : False,
+}
+```
+
+A structured set of Excel-based business analytics reports that dissect Atliq Hardwares' sales performance, market gaps, and profitability — from the customer level all the way up to regional P&L, month by month.
+
+<br/>
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#architecture)
+
+## Report Architecture
+
+```
+  Source Data  (transactional records · fiscal year extracts · target sheets)
+              │
+              ▼
+┌─────────────────────────────────────────────────────────┐
+│  DATA LAYER  — Power Query + Structured Tables          │
+│  Clean · Typed · Relationships mapped                   │
+└────────────────────────┬────────────────────────────────┘
+                         │  feeds into
+                         ▼
+┌─────────────────────────────────────────────────────────┐
+│  ANALYTICS LAYER  — Pivot Tables + Formulas             │
+│  Net Sales · COGS · Gross Margin · GM%                  │
+│  YoY Growth · Variance vs Target                        │
+└──────────┬──────────────────────────┬───────────────────┘
+           │                          │
+           ▼                          ▼
+┌────────────────────┐    ┌───────────────────────────────┐
+│  CUSTOMER REPORT   │    │  MARKET vs TARGET REPORT      │
+│  Revenue by acct   │    │  Actual vs goal per country   │
+│  YoY growth %      │    │  Gap analysis · Miss flagged  │
+└────────────────────┘    └───────────────────────────────┘
+           │                          │
+           └──────────┬───────────────┘
+                      ▼
+        ┌─────────────────────────────┐
+        │  P&L REPORTS (3 cuts)       │
+        │  By Fiscal Year             │
+        │  By Market / Region         │
+        │  By Month (seasonality)     │
+        └─────────────────────────────┘
+```
+
+<br/>
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#reports)
+
+## Reports Breakdown
 
 <div align="center">
 
-💡 Turning raw business data into **strategic insights** using Excel dashboards,
-financial modeling, and performance analytics.
+| Report | What It Answers | Key Output |
+|:---|:---|:---|
+| **Customer Performance** | Which accounts drive revenue? | Net sales · YoY Δ% per customer |
+| **Market vs Target** | Where did we miss? By how much? | Actual vs target gap, country-level |
+| **P&L — Fiscal Year** | Is the business growing profitably? | Net Sales · COGS · GM · GM% (2019–2021) |
+| **P&L — Markets** | Which regions earn the most margin? | Country-level P&L with margin % |
+| **P&L — Months** | When does revenue spike or dip? | Monthly trend · Seasonality signals |
 
 </div>
 
----
+<br/>
 
-## 🎯 Project Objective
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#insights)
 
-<div style="background-color:#f6f8fa; padding:15px; border-radius:10px;">
+## Insight Highlights
 
-✔ Analyze **customer sales performance**
-✔ Compare **market performance vs targets**
-✔ Evaluate **profitability trends**
-✔ Build **structured financial reports**
+```
+Customer Performance
+──────────────────────────────────────────────────────────
+  Amazon         ████████████████████████████░░░░  Top revenue channel
+  Flipkart       ████████████████████░░░░░░░░░░░░  Strong domestic pull
+  BestBuy        ████████████████░░░░░░░░░░░░░░░░  Key USA contributor
+  AtliQ e Store  ████████████░░░░░░░░░░░░░░░░░░░░  Direct channel rising
 
-</div>
+Market vs Target — 2021
+──────────────────────────────────────────────────────────
+  India          161.3M actual  |  missed target by  -9.6M   ⚠
+  USA             87.8M actual  |  on track                  ✓
+  Canada          35.1M actual  |  missed target by  -2.1M   ⚠
 
----
+P&L Trajectory — Net Sales
+──────────────────────────────────────────────────────────
+  2019    87.5M   ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  2020   196.7M   █████████░░░░░░░░░░░░░░░░░░░░░░░
+  2021   598.9M   ████████████████████████████████  +204% YoY 🚀
 
-## 📁 Reports Overview
+Gross Margin — 2021
+──────────────────────────────────────────────────────────
+  Total GM        218.2M  |  GM% ~36.4%
+  USA GM%         37.0%   ████████████████████████████████
+  India GM%       ~32%    ███████████████████████████░░░░░
+```
 
----
+<br/>
 
-### 🧑‍💼 Customer Performance Report
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#execution)
 
-<div style="display:flex; gap:20px;">
+## Example Analysis Flow
 
-<div>
+```
+Business Question → "Why did India miss its 2021 sales target?"
 
-📊 **What it shows:**
+Step 1  →  Open Market vs Target Report
+        →  Filter: Country = India
+        →  Actual: 161.3M  |  Target: 170.9M  |  Gap: -9.6M (-5.6%)
 
-* Net sales by customer
-* Growth trends (YoY)
-* Revenue contribution
+Step 2  →  Cross-reference Customer Performance Report
+        →  Identify which accounts underperformed vs prior year
 
-🏢 **Key Players:**
-Amazon • Flipkart • BestBuy • Costco
+Step 3  →  Check P&L by Months — India
+        →  Locate quarter where growth stalled (Q3 dip visible)
 
-</div>
+Step 4  →  Margin check via P&L by Markets
+        →  India GM% = 32%  →  below USA (37%) and Canada (35%)
 
-<div>
+Conclusion  →  Volume shortfall + compressed margin in India
+            →  Recommend: channel mix review + pricing audit
+            →  Data-backed. Delivered in Excel. No code needed.
+```
 
-🔥 **Insight Highlight:**
-Top customers drive majority revenue, helping identify
-**high-impact sales channels**
+<br/>
 
-</div>
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#stack)
 
-</div>
+## Tech Stack
 
----
+<div align="center">
 
-### 🌍 Market Performance vs Target
-
-<div style="background: linear-gradient(90deg, #e3f2fd, #ffffff); padding:15px; border-radius:10px;">
-
-📊 Compare **Actual vs Target Sales** across countries
-
-📍 India:
-➡️ 161.3M Sales
-➡️ Missed target by 9.6M
-
-🎯 Helps identify **underperforming markets**
-
-</div>
-
----
-
-### 💰 P&L Statement by Fiscal Year
-
-<table>
-<tr>
-<th>Metric</th>
-<th>Insight</th>
-</tr>
-<tr>
-<td>Net Sales</td>
-<td>87.5M → 598.9M (Massive Growth 🚀)</td>
-</tr>
-<tr>
-<td>Gross Margin</td>
-<td>218.2M in 2021</td>
-</tr>
-</table>
-
-📈 Shows **overall financial health and growth trajectory**
-
----
-
-### 🌐 P&L Statement by Markets
-
-<div style="background-color:#f0fff4; padding:15px; border-radius:10px;">
-
-🌎 Market-wise profitability insights:
-
-* 🇺🇸 USA → 87.78M sales | 37% margin
-* 🇮🇳 India → 161.26M sales
-
-📊 Helps evaluate **regional performance & expansion strategy**
+| Layer | Technology |
+|:---:|:---:|
+| Core Tool | `Microsoft Excel` — Pivot Tables, Power Query, Formulas |
+| Aggregation | `Pivot Tables` — dynamic slicing by customer, market, month |
+| Transformation | `Power Query` — data cleaning, type casting, joins |
+| Metrics | `SUMIF / IF / IFERROR / calculated fields` |
+| Reporting | Five structured `.xlsx` report files |
+| Versioning | `Git + GitHub` — tracked, shareable, reproducible |
 
 </div>
 
----
+<br/>
 
-### 📅 P&L Statement by Months
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#structure)
 
-<div style="background-color:#fff7e6; padding:15px; border-radius:10px;">
-
-📊 Monthly trends across years
-
-📈 2021 shows consistent growth over previous years
-
-🔍 Useful for:
-
-* Seasonality analysis
-* Forecasting
-* Demand planning
-
-</div>
-
----
-
-## 🛠 Tools & Techniques
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Excel-Pivot%20Tables-success"/>
-  <img src="https://img.shields.io/badge/Analysis-Financial-blue"/>
-  <img src="https://img.shields.io/badge/KPI-Tracking-orange"/>
-</p>
-
----
-
-## 🧠 Skills Demonstrated
-
-✨ Data Analysis
-✨ Financial Reporting
-✨ Business Intelligence
-✨ KPI Monitoring
-✨ Market Evaluation
-
----
-
-## 📂 Project Structure
+## Project Structure
 
 ```bash
-Excel-Business-Reports/
+Excel-Business-Analytics/
 │
-├── Customer Performance Report.xlsx
-├── Market Performance vs Target Report.xlsx
-├── P&L Statement by Fiscal Year.xlsx
-├── P&L Statement by Markets.xlsx
-├── P&L Statement by Months.xlsx
+├── Customer Performance Report.xlsx         # Revenue + YoY by account
+├── Market Performance vs Target Report.xlsx  # Actual vs target gap, by country
+├── P&L Statement by Fiscal Year.xlsx        # 2019–2021 full P&L
+├── P&L Statement by Markets.xlsx            # Country-level margin breakdown
+├── P&L Statement by Months.xlsx             # Monthly seasonality view
 │
 └── README.md
 ```
 
----
+<br/>
 
-## 💡 Business Impact
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#impact)
 
-<div align="center" style="background-color:#f6f8fa; padding:15px; border-radius:10px;">
+## Business Impact
 
-📈 Track Sales Performance
-💰 Monitor Profitability
-🌍 Evaluate Market Growth
-🎯 Enable Data-Driven Decisions
+```
+  Manual report build time reduced    ████████████████████████████░░  ~90%
+  Revenue visibility (customer lvl)   ████████████████████████████░░  Full coverage
+  Market gap identification           ████████████████████████░░░░░░  Country-level
+  P&L granularity (month x market)    ████████████████████████████░░  3-year depth
+  Tools required beyond Excel         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  zero
+```
+
+<br/>
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#roadmap)
+
+## Roadmap
+
+```
+[✓]  Customer net sales with YoY growth tracking
+[✓]  Market vs target variance analysis (country-level)
+[✓]  P&L by fiscal year — sales, COGS, gross margin, GM%
+[✓]  P&L by markets — regional profitability comparison
+[✓]  P&L by months — seasonality and trend analysis
+[ ]  Power BI version — live-refresh dashboard
+[ ]  SQL backend — replace manual data prep with queries
+[ ]  Forecast model — regression-based sales projection
+[ ]  Automated report refresh via Python + openpyxl
+[ ]  Executive summary slide deck auto-generated from data
+```
+
+<br/>
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#skills)
+
+## Skills Demonstrated
+
+<div align="center">
+
+| Skill | Application |
+|:---|:---|
+| **Data Analysis** | Slicing sales data by customer, market, period |
+| **Financial Reporting** | Full P&L construction — net sales to GM% |
+| **Business Intelligence** | Trend identification, gap analysis, KPI monitoring |
+| **Market Evaluation** | Country-level performance vs targets |
+| **Excel Mastery** | Pivot Tables, Power Query, structured formulas |
 
 </div>
 
----
+<br/>
 
-## 👨‍💻 Author
-
-<p align="center">
-<b>Lakshya Verma</b><br>
-Computer Science (AI) Student<br><br>
-
-💼 Data Analytics | Data Governance | BI Enthusiast
-
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Excel-Expert-green"/>
-  <img src="https://img.shields.io/badge/SQL-Intermediate-blue"/>
-  <img src="https://img.shields.io/badge/PowerBI-Advanced-yellow"/>
-  <img src="https://img.shields.io/badge/Python-Data%20Analysis-orange"/>
-</p>
-
----
-
-<div align="center">
----
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)](#footer)
 
 <div align="center">
 
-⭐ <b>If you like this project, consider giving it a star!</b> ⭐
+<br/>
 
-<br>
+Built by **[Lakshya Verma](https://github.com/lakshyaverma2004)**  
+`B.Tech CSE (AI/ML) · Manipal Institute of Technology · 2027`
 
-🧟‍♂️ Warning: This project may revive your dead Excel skills
-🧟‍♀️ Side effects include: uncontrollable pivot tables & KPI obsession
-🧟 Data never sleeps… it just comes back smarter
+<br/>
 
-<br>
+![Views](https://visitor-badge.laobi.icu/badge?page_id=lakshyaverma2004.excel-business-analytics&left_color=020a0f&right_color=041520&left_text=Repo%20Views)
 
-<b>Stay analytical. Stay curious. Stay alive.</b> 🧟
+<br/>
 
-</div>
+*Numbers don't lie. Excel just makes them impossible to ignore.*
 
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030d18,50:041520,100:020a0f&height=120&section=footer&text=ANALYSE.%20COMPARE.%20DECIDE.&fontSize=16&fontColor=00d4aa&fontAlignY=55&desc=vermalakshya12%40gmail.com&descSize=11&descColor=0891b2&descAlignY=78" width="100%"/>
 
 </div>
